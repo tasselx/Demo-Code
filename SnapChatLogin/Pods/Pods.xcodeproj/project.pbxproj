@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		DC460828FF0F2F76C86CA020169EDB5F /* SnapSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 52EC5BD53AFC31153286E36345A879DE /* Build configuration list for PBXAggregateTarget "SnapSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SnapSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		59AF9D371F6DF28A4B48F0F5573A67B4 /* Pods-SnapChatLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8BEC166C36E55EAEB7ADCD742EDFB2 /* Pods-SnapChatLogin-dummy.m */; };
+		954D464B096AE71C42E4C742D2EB1312 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C140D7ED942A333DC8232E8F1414FDFF /* Pods-SnapChatLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95149826E1BA164C485A148389A2F661 /* Pods-SnapChatLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC218C66F04716D75A27ED52FB5F2161 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC460828FF0F2F76C86CA020169EDB5F;
+			remoteInfo = SnapSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		066EFBC37697E978396878B2C0B62717 /* Pods-SnapChatLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SnapChatLogin.modulemap"; sourceTree = "<group>"; };
+		21614D81C2186C604025B6510BFE2715 /* SnapSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapSDK.xcconfig; sourceTree = "<group>"; };
+		24157A1248592600C85358E099E70914 /* Pods-SnapChatLogin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SnapChatLogin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5235BA026CA5B3F80D1039CB7C9294D4 /* Pods_SnapChatLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SnapChatLogin.framework; path = "Pods-SnapChatLogin.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		680D5EBDB3BECA1FCDD8FD893747D60E /* Pods-SnapChatLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnapChatLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		689527B168D1C9B82A5A80D6CAC2B952 /* Pods-SnapChatLogin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnapChatLogin-acknowledgements.plist"; sourceTree = "<group>"; };
+		89B4DCD52E6912E10905CECA478E6659 /* SCSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SCSDKCoreKit.framework; sourceTree = "<group>"; };
+		95149826E1BA164C485A148389A2F661 /* Pods-SnapChatLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SnapChatLogin-umbrella.h"; sourceTree = "<group>"; };
+		964AC1E50C36366A1A3FD200CC06C8E4 /* Pods-SnapChatLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnapChatLogin-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC8BEC166C36E55EAEB7ADCD742EDFB2 /* Pods-SnapChatLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SnapChatLogin-dummy.m"; sourceTree = "<group>"; };
+		D51F3F3930B182CC379E8D41A3C309DB /* Pods-SnapChatLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnapChatLogin.release.xcconfig"; sourceTree = "<group>"; };
+		E3582503F86003CBD5114B20F315258E /* Pods-SnapChatLogin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnapChatLogin-frameworks.sh"; sourceTree = "<group>"; };
+		EC456C44A32A7D3285215563E623319F /* SCSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SCSDKLoginKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C5AF6468D16E247FB2DA7678DBCBC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954D464B096AE71C42E4C742D2EB1312 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D368F65EF73C4A629B8D14B9DD80164 /* Pods-SnapChatLogin */ = {
+			isa = PBXGroup;
+			children = (
+				066EFBC37697E978396878B2C0B62717 /* Pods-SnapChatLogin.modulemap */,
+				24157A1248592600C85358E099E70914 /* Pods-SnapChatLogin-acknowledgements.markdown */,
+				689527B168D1C9B82A5A80D6CAC2B952 /* Pods-SnapChatLogin-acknowledgements.plist */,
+				AC8BEC166C36E55EAEB7ADCD742EDFB2 /* Pods-SnapChatLogin-dummy.m */,
+				E3582503F86003CBD5114B20F315258E /* Pods-SnapChatLogin-frameworks.sh */,
+				964AC1E50C36366A1A3FD200CC06C8E4 /* Pods-SnapChatLogin-Info.plist */,
+				95149826E1BA164C485A148389A2F661 /* Pods-SnapChatLogin-umbrella.h */,
+				680D5EBDB3BECA1FCDD8FD893747D60E /* Pods-SnapChatLogin.debug.xcconfig */,
+				D51F3F3930B182CC379E8D41A3C309DB /* Pods-SnapChatLogin.release.xcconfig */,
+			);
+			name = "Pods-SnapChatLogin";
+			path = "Target Support Files/Pods-SnapChatLogin";
+			sourceTree = "<group>";
+		};
+		4E0DCCAB2C994BD493B38C2D08E0CDC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5235BA026CA5B3F80D1039CB7C9294D4 /* Pods_SnapChatLogin.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AD24EE8DE8738025C00CB270B237047 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5995F1FB5FD08353A08762BAE2CDFA5 /* SnapSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7006397A6F8BE8CEC0085477A278893C /* SCSDKLoginKit */ = {
+			isa = PBXGroup;
+			children = (
+				7A0AFBD0FF7EE1C220A96204FFF69B17 /* Frameworks */,
+			);
+			name = SCSDKLoginKit;
+			sourceTree = "<group>";
+		};
+		75FDA635EB1518F6387A87944FB83026 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D368F65EF73C4A629B8D14B9DD80164 /* Pods-SnapChatLogin */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7A0AFBD0FF7EE1C220A96204FFF69B17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89B4DCD52E6912E10905CECA478E6659 /* SCSDKCoreKit.framework */,
+				EC456C44A32A7D3285215563E623319F /* SCSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C5995F1FB5FD08353A08762BAE2CDFA5 /* SnapSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7006397A6F8BE8CEC0085477A278893C /* SCSDKLoginKit */,
+				D0BC06C2DA0A14412D1EC1301839B53B /* Support Files */,
+			);
+			name = SnapSDK;
+			path = SnapSDK;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6AD24EE8DE8738025C00CB270B237047 /* Pods */,
+				4E0DCCAB2C994BD493B38C2D08E0CDC2 /* Products */,
+				75FDA635EB1518F6387A87944FB83026 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0BC06C2DA0A14412D1EC1301839B53B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21614D81C2186C604025B6510BFE2715 /* SnapSDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapSDK";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		381B302D5EFF80D951F75743CEE00506 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C140D7ED942A333DC8232E8F1414FDFF /* Pods-SnapChatLogin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A26DBBA81F461584582492ED1AD1398 /* Pods-SnapChatLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C9EE255594FE506B59D6FFD43EDB3F9 /* Build configuration list for PBXNativeTarget "Pods-SnapChatLogin" */;
+			buildPhases = (
+				381B302D5EFF80D951F75743CEE00506 /* Headers */,
+				1AAF0351074B92321AD86EF8DB08B553 /* Sources */,
+				3C5AF6468D16E247FB2DA7678DBCBC7F /* Frameworks */,
+				9C6CBD039439DBA1C749FF47C3861D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F237570FADBD57400C53EAC9979A2C20 /* PBXTargetDependency */,
+			);
+			name = "Pods-SnapChatLogin";
+			productName = "Pods-SnapChatLogin";
+			productReference = 5235BA026CA5B3F80D1039CB7C9294D4 /* Pods_SnapChatLogin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4E0DCCAB2C994BD493B38C2D08E0CDC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A26DBBA81F461584582492ED1AD1398 /* Pods-SnapChatLogin */,
+				DC460828FF0F2F76C86CA020169EDB5F /* SnapSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C6CBD039439DBA1C749FF47C3861D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AAF0351074B92321AD86EF8DB08B553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59AF9D371F6DF28A4B48F0F5573A67B4 /* Pods-SnapChatLogin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F237570FADBD57400C53EAC9979A2C20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapSDK;
+			target = DC460828FF0F2F76C86CA020169EDB5F /* SnapSDK */;
+			targetProxy = FC218C66F04716D75A27ED52FB5F2161 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		198074CAC2FD28230788AAC4DA2FA621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D51F3F3930B182CC379E8D41A3C309DB /* Pods-SnapChatLogin.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SnapChatLogin/Pods-SnapChatLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SnapChatLogin/Pods-SnapChatLogin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4160CA28487C8E0A1E1903B752E8E3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 680D5EBDB3BECA1FCDD8FD893747D60E /* Pods-SnapChatLogin.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SnapChatLogin/Pods-SnapChatLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SnapChatLogin/Pods-SnapChatLogin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DBAD0E0866475FBDA5F4E0EF790FE37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21614D81C2186C604025B6510BFE2715 /* SnapSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C1AE8C4E87C7434BD3234DC4C4D15695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21614D81C2186C604025B6510BFE2715 /* SnapSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C9EE255594FE506B59D6FFD43EDB3F9 /* Build configuration list for PBXNativeTarget "Pods-SnapChatLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4160CA28487C8E0A1E1903B752E8E3F0 /* Debug */,
+				198074CAC2FD28230788AAC4DA2FA621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52EC5BD53AFC31153286E36345A879DE /* Build configuration list for PBXAggregateTarget "SnapSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1AE8C4E87C7434BD3234DC4C4D15695 /* Debug */,
+				5DBAD0E0866475FBDA5F4E0EF790FE37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
