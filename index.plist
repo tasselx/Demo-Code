@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://www.evernote.com/shard/s585/sh/ec3d1e8d-9ac1-4b71-b052-f48e24d9552b/27fe9b876bc20733/res/70d7ed8d-668e-4cac-94e7-4560d84573a2/Nicegram.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<false/>
+					<key>url</key>
+					<string>http://www.comwv.com/uploads/20200102/decc701a7206feb63b0d8a9c1e93447f.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<false/>
+					<key>url</key>
+					<string>http://www.comwv.com/uploads/20200102/decc701a7206feb63b0d8a9c1e93447f.png</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.kingkong.617masteraassdd</string>
+				<key>bundle-version</key>
+				<string>3.0.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>UDID</string>
+				<key>title</key>
+				<string>617棋牌”-若提示未信任的开发者 请在(设置&gt;通用&gt;设备管理)中添加信任</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
